@@ -29,3 +29,10 @@
 .link_nav:hover {
   color: #fff;
 }
+
+
+.nav_socials {
+  margin-right: 2rem;
+  display: flex;
+  gap: 2rem;
+}
