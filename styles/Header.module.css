@@ -36,3 +36,9 @@
   display: flex;
   gap: 2rem;
 }
+.social_link {
+  transition: all 40ms ease;
+}
+.social_link:hover {
+  transform: scaleX(1.4) scaleY(1.4);
+}
