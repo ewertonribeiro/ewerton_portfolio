@@ -37,7 +37,7 @@
   gap: 2rem;
 }
 .social_link {
-  transition: all 40ms ease;
+  transition: all 0.4s ease;
 }
 .social_link:hover {
   transform: scaleX(1.4) scaleY(1.4);
