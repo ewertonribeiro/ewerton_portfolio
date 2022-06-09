@@ -1,0 +1,41 @@
+.hero_container {
+  width: 50%;
+  margin-left: 13%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.hero_title {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.hero_paragrafo {
+  color:rgba(255,255,255,0.5);
+  font-size: 1.1rem;
+  line-height: 2.5rem;
+  max-width: 70%;
+}
+
+.hero_paragrafo strong {
+  color:#11a36a ;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.hero_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem;
+  width: 14rem;
+  height: 4rem;
+  border-radius: 50px;
+  border: none;
+  font-weight: bolder;
+  color: #fff;
+  font-size: 1.6rem;
+  background-image: linear-gradient(to right , #13ADC7 , #945DD6);
+}
