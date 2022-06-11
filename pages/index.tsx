@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import Header from '../Components/Header'
 import Hero from "../Components/Hero";
+import ProjectsSection from "../Components/Projects-Section";
 import Separator from "../Components/Separator";
 
 const Home: NextPage = () => {
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
       <Header />
       <Hero />
       <Separator />
+      <ProjectsSection />
     </div>
   )
 }
