@@ -8,6 +8,9 @@ const ProjectsSection = () => {
       <main>
         <Project />
         <Project />
+        <Project />
+        <Project />
+        <Project />
       </main>
     </section>
   )

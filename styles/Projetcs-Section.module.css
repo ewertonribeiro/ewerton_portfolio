@@ -1,5 +1,6 @@
 .projects_container {
-  margin-left: 13%;
+  width: 65%;
+  margin-left: 20%;
   }
 
 
@@ -16,4 +17,5 @@
   display: grid;
   grid-template-columns: 48% 48%;
   margin-bottom: 4rem;
+  grid-gap: 2rem;
 }
