@@ -4,8 +4,7 @@ import BackgroundAnimation from "./BgAnimation";
 
 const Hero = () => {
   return (
-    <div>
-
+    <main>
       <BackgroundAnimation />
       <div className={styles.hero_container}>
         <h1 className={styles.hero_title}>BEM VINDO!
@@ -22,7 +21,7 @@ const Hero = () => {
           <a className={styles.hero_button}>Saiba Mais!</a>
         </Link>
       </div>
-    </div>
+    </main>
   )
 }
 
