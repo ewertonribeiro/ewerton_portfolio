@@ -1,6 +1,6 @@
 .projects_container {
   margin-left: 13%;
-}
+  }
 
 
 .projects_container h2 {
@@ -12,4 +12,8 @@
   font-weight: bolder;
 }
 
-
+.projects_container main {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  margin-bottom: 4rem;
+}
