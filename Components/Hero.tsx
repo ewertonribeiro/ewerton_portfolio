@@ -5,9 +5,8 @@ import Photo from "./Photo";
 
 const Hero = () => {
   return (
-    <div>
+    <main>
       <BackgroundAnimation />
-
       <div className={styles.hero_container}>
         <main className="hero_main">
           <h1 className={styles.hero_title}>
@@ -31,8 +30,9 @@ const Hero = () => {
         </main>
         <Photo />
       </div>
-    </div>
-  );
-};
+    </main>
+  )
+}
+
 
 export default Hero;
