@@ -39,6 +39,7 @@
   border: none;
   font-weight: bolder;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  text-align: center;
   background-image: linear-gradient(to right, #13adc7, #945dd6);
 }

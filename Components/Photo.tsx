@@ -1,7 +1,32 @@
 import Image from "next/image";
 import style from "../styles/Photo.module.css";
+import Button from "./Social_button";
+
+type Socials = {
+  name: string;
+  color: string;
+  link: string;
+};
 
 const Photo = () => {
+  const TypesSocials = [
+    {
+      name: "Linkedin",
+      color: "#0077b5",
+      link: "https://www.linkedin.com/in/ewerton-ribeiro-822460205",
+    },
+    {
+      name: "Discord",
+      color: "#7289da",
+      link: "https://discord.com/channels/@me",
+    },
+    {
+      name: "Github",
+      color: " #333",
+      link: "https://github.com/ewertonribeiro",
+    },
+  ] as Socials[];
+
   return (
     <aside className={style.photo_aside}>
       <Image
@@ -11,40 +36,11 @@ const Photo = () => {
         height={800}
         style={{ borderRadius: "3333px" }}
       ></Image>
+
       <div className={style.image_socials}>
-        <a
-          href="https://discord.com/channels/@me"
-          target="_blank"
-          rel="noreferrer"
-          className={style.image_social}
-        >
-          <img
-            src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"
-            alt="Discord Logo"
-          />
-        </a>
-        <a
-          href="ewertondosanjosz@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-          className={style.image_social}
-        >
-          <img
-            src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
-            alt="Gmail Logo"
-          />
-        </a>
-        <a
-          href="www.linkedin.com/in/ewerton-ribeiro-822460205"
-          target="_blank"
-          rel="noreferrer"
-          className={style.image_social}
-        >
-          <img
-            src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            alt="Linkedin Logo"
-          />
-        </a>
+        {TypesSocials.map(({ name, color, link }, index) => (
+          <Button key={index} text={name} color={color} link={link} />
+        ))}
       </div>
     </aside>
   );

@@ -26,7 +26,7 @@ const Hero = () => {
           </p>
 
           <Link href="/sobre">
-            <a className={styles.hero_button}>Saiba Mais!</a>
+            <a className={styles.hero_button}>Veja Meus Projetos!</a>
           </Link>
         </main>
         <Photo />
