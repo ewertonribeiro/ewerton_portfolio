@@ -1,6 +1,8 @@
 .hero_container {
-  width: 70%;
-  margin-left: 13%;
+
+  width: 50%;
+  margin-left: 20%;
+
   display: flex;
   gap: 1rem;
   margin-bottom: 4rem;
