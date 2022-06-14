@@ -8,17 +8,18 @@
 .div_span_portfolio {
   display: flex;
   align-items: center;
-
 }
 .span_portfolio {
   color: #fff;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 .header_nav {
   display: flex;
   gap: 2rem;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .link_nav {
@@ -29,7 +30,6 @@
 .link_nav:hover {
   color: #fff;
 }
-
 
 .nav_socials {
   margin-right: 2rem;
