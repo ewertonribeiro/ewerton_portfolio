@@ -24,15 +24,14 @@ const Hero = () => {
             , sempre em busca do proximo nivel!
           </p>
 
-          <Link href="/sobre">
-            <a className={styles.hero_button}>Veja Meus Projetos!</a>
+          <Link href="/projetos">
+            <a className={styles.hero_button}>Meus Projetos!</a>
           </Link>
         </main>
         <Photo />
       </div>
     </main>
-  )
-}
-
+  );
+};
 
 export default Hero;
