@@ -1,6 +1,5 @@
 .projects_container {
-  width: 65%;
-  margin-left: 20%;
+  flex-direction: column;
 }
 
 .projects_container h2 {

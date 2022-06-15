@@ -1,0 +1,12 @@
+.tecnologies_page {
+  flex-direction: column;
+}
+
+.tecnologies_page h1 {
+  font-size: 5rem;
+}
+
+.tecnologies_page p {
+  font-weight: 500;
+  font-size: 1.6rem;
+}

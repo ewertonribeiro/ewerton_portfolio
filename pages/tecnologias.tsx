@@ -12,17 +12,18 @@ import {
   SiMongodb,
 } from "react-icons/si";
 import { BsServer } from "react-icons/bs";
-
 import Header from "../Components/Header";
 import Title from "../Components/SectionTitle";
-import styles from "../styles/Tecnologies-Page.module.css";
 import { FaCss3, FaHtml5, FaReact, FaSass } from "react-icons/fa";
+
+import styles from "../styles/Tecnologies-Page.module.css";
+import global from "../styles/utils.module.css";
 
 const TecnologiesPage = () => {
   return (
     <>
       <Header />
-      <section className={styles.tecnologies_page}>
+      <section className={`${global.container} ${styles.tecnologies_page}`}>
         <Title>Tecnologias</Title>
         <p>
           Já trabalhei com diversas tecnologias do mundo de desenvolvimento web

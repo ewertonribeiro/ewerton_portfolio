@@ -2,12 +2,13 @@ import Link from "next/link";
 import styles from "../styles/Hero.module.css";
 import BackgroundAnimation from "./BgAnimation";
 import Photo from "./Photo";
+import utils from "../styles/utils.module.css";
 
 const Hero = () => {
   return (
     <main>
       <BackgroundAnimation />
-      <div className={styles.hero_container}>
+      <div className={`${styles.hero_container} ${utils.container}`}>
         <main className="hero_main">
           <h1 className={styles.hero_title}>
             Prazer, Sou o <strong>Ewerton!</strong>
