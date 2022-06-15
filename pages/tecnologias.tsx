@@ -29,7 +29,7 @@ const TecnologiesPage = () => {
           Já trabalhei com diversas tecnologias do mundo de desenvolvimento web
           , sendo elas tanto de front-ent quanto de back-end!
         </p>
-        <footer>
+        <footer className={styles.tecnologies_footer}>
           <div>
             <h4>
               <FaReact /> Front-End
@@ -54,7 +54,7 @@ const TecnologiesPage = () => {
           <div>
             <h4>
               <BsServer />
-              Back-End-End
+              Back-End
             </h4>
             <ul>
               <li>
@@ -79,7 +79,10 @@ const TecnologiesPage = () => {
             </ul>
           </div>
           <div>
-            <h4>Linguagens</h4>
+            <h4>
+              <SiJavascript />
+              Linguagens
+            </h4>
             <ul>
               <li>
                 <SiJavascript /> Javascript

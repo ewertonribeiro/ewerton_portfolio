@@ -1,5 +1,6 @@
 .tecnologies_page {
   flex-direction: column;
+  margin-bottom: 4rem;
 }
 
 .tecnologies_page h1 {
@@ -7,6 +8,39 @@
 }
 
 .tecnologies_page p {
-  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
   font-size: 1.6rem;
+  line-height: 2.5rem;
+  width: 60%;
+}
+
+.tecnologies_footer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.tecnologies_footer div h4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #ffff;
+  font-size: 3rem;
+}
+
+.tecnologies_footer div ul {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.tecnologies_footer div ul li {
+  padding: 10px 8px;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  margin-left: -3rem;
 }
