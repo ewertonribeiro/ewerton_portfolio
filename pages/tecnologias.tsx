@@ -32,7 +32,7 @@ const TecnologiesPage = () => {
         <footer className={styles.tecnologies_footer}>
           <div>
             <h4>
-              <FaReact /> Front-End
+              <FaReact fill="skyblue" className={styles.react_logo} /> Front-End
             </h4>
             <ul>
               <li>
