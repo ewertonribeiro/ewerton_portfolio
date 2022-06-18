@@ -36,17 +36,17 @@ const TecnologiesPage = () => {
             </h4>
             <ul>
               <li>
-                <FaReact />
+                <FaReact fill="skyblue" />
                 React
               </li>
               <li>
-                <SiNextdotjs /> Next JS
+                <SiNextdotjs fill="#fff" /> Next JS
               </li>
               <li>
-                <FaHtml5 /> Html
+                <FaHtml5 fill="#e95f25" /> Html
               </li>
               <li>
-                <FaCss3 /> <FaSass /> CSS/SASS
+                <FaCss3 fill="#12a1dd" /> <FaSass fill="#cb669a" /> CSS/SASS
               </li>
             </ul>
           </div>
@@ -58,37 +58,38 @@ const TecnologiesPage = () => {
             </h4>
             <ul>
               <li>
-                <SiNodedotjs />
+                <SiNodedotjs fill="#8fc43e" />
                 Node
               </li>
               <li>
-                <SiExpress />
+                <SiExpress fill="#fff" />
                 Express JS
               </li>
               <li>
-                <SiAdonisjs />
+                <SiAdonisjs fill="#1f004e" />
                 Adonis JS
               </li>
               <li>
-                <SiNestjs />
+                <SiNestjs fill="#df214d" />
                 Nest JS
               </li>
               <li>
-                <SiPostgresql /> <SiMongodb /> SQL/NOSQL
+                <SiPostgresql fill="#306493" /> <SiMongodb fill="#4cad45" />{" "}
+                SQL/NOSQL
               </li>
             </ul>
           </div>
           <div>
             <h4>
-              <SiJavascript />
+              <SiJavascript fill="#f5dd1b" />
               Linguagens
             </h4>
             <ul>
               <li>
-                <SiJavascript /> Javascript
+                <SiJavascript fill="#f5dd1b" /> Javascript
               </li>
               <li>
-                <SiTypescript />
+                <SiTypescript fill="#0079cc" />
                 Typescript
               </li>
               <li>
@@ -96,7 +97,7 @@ const TecnologiesPage = () => {
                 Python
               </li>
               <li>
-                <SiCsharp />
+                <SiCsharp fill="#994990" />
                 C#
               </li>
             </ul>
