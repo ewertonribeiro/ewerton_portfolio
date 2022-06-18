@@ -8,7 +8,7 @@ const Hero = () => {
     <main>
       <BackgroundAnimation />
       <div className={styles.hero_container}>
-        <main className="hero_main">
+        <main>
           <h1 className={styles.hero_title}>
             Prazer, Sou o <strong>Ewerton!</strong>
             <br />
@@ -31,8 +31,7 @@ const Hero = () => {
         <Photo />
       </div>
     </main>
-  )
-}
-
+  );
+};
 
 export default Hero;

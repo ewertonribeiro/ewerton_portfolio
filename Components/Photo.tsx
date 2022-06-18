@@ -29,13 +29,15 @@ const Photo = () => {
 
   return (
     <aside className={style.photo_aside}>
-      <Image
-        src="/assets/218480281_1339201426495100_5152472262235085304_n.jpg"
-        alt="Imagem de Ewerton Ribeiro"
-        width={800}
-        height={800}
-        style={{ borderRadius: "3333px" }}
-      ></Image>
+      <div className={style.photo}>
+        <Image
+          src="/assets/meudesenho.png"
+          alt="Imagem de Ewerton Ribeiro"
+          width={800}
+          height={800}
+          style={{ borderRadius: "3333px" }}
+        ></Image>
+      </div>
 
       <div className={style.image_socials}>
         {TypesSocials.map(({ name, color, link }, index) => (
