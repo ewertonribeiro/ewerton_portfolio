@@ -1,11 +1,13 @@
 .projects_container {
-  width: 65%;
-  margin-left: 20%;
-  }
-
+  flex-direction: column;
+}
 
 .projects_container h2 {
-  background: linear-gradient(121.57deg,#FFFFFF 18.77%,rgba(255,255,255,0.66) 60.15%);
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -15,7 +17,7 @@
 
 .projects_container main {
   display: grid;
-  grid-template-columns: 48% 48%;
+  grid-template-columns: 50% 50%;
   margin-bottom: 4rem;
   grid-gap: 2rem;
 }

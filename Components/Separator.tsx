@@ -1,7 +1,7 @@
 import styles from "../styles/Separator.module.css";
 
 interface IColor {
-  color: string;
+  color?: string;
 }
 
 const Separator = ({ color }: IColor) => {

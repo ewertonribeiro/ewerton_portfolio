@@ -2,13 +2,16 @@ import Link from "next/link";
 import styles from "../styles/Hero.module.css";
 import BackgroundAnimation from "./BgAnimation";
 import Photo from "./Photo";
+import utils from "../styles/utils.module.css";
 
 const Hero = () => {
   return (
     <main>
       <BackgroundAnimation />
-      <div className={styles.hero_container}>
-        <main>
+
+      <div className={`${styles.hero_container} ${utils.container}`}>
+        <main className="hero_main">
+
           <h1 className={styles.hero_title}>
             Prazer, Sou o <strong>Ewerton!</strong>
             <br />
@@ -24,8 +27,8 @@ const Hero = () => {
             , sempre em busca do proximo nivel!
           </p>
 
-          <Link href="/sobre">
-            <a className={styles.hero_button}>Veja Meus Projetos!</a>
+          <Link href="/projetos">
+            <a className={styles.hero_button}>Meus Projetos!</a>
           </Link>
         </main>
         <Photo />

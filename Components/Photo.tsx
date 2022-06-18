@@ -1,6 +1,6 @@
 import Image from "next/image";
 import style from "../styles/Photo.module.css";
-import Button from "./Social_Button";
+import Button from "./SocialButton";
 
 type Socials = {
   name: string;

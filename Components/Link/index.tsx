@@ -3,7 +3,7 @@ import { ReactChild } from "react";
 
 type Props = {
   Href: string;
-  children: ReactChild;
+  children: ReactChild[] | ReactChild;
   className: string;
 };
 
