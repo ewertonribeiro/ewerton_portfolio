@@ -7,13 +7,14 @@
 }
 
 .photo {
-  animation: moveToLeft 2s ease-in-out;
+  animation: moveToLeft 2s ease-in-out 2.3s;
+  animation-fill-mode: backwards;
 }
 
 .image_socials {
   display: flex;
   gap: 8px;
-  animation: moveUp 2s ease-in-out 2.2s;
+  animation: moveUp 2s ease-in-out 2.4s;
   animation-fill-mode: backwards;
 }
 
