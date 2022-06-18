@@ -6,7 +6,37 @@
   gap: 1rem;
 }
 
+.photo {
+  animation: showAside 2s ease-in-out;
+}
+
 .image_socials {
   display: flex;
   gap: 8px;
+  animation: showSocials 2s ease-in-out 2.2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes showAside {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes showSocials {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
