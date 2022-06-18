@@ -7,17 +7,17 @@
 }
 
 .photo {
-  animation: showAside 2s ease-in-out;
+  animation: moveToLeft 2s ease-in-out;
 }
 
 .image_socials {
   display: flex;
   gap: 8px;
-  animation: showSocials 2s ease-in-out 2.2s;
+  animation: moveUp 2s ease-in-out 2.2s;
   animation-fill-mode: backwards;
 }
 
-@keyframes showAside {
+@keyframes moveToLeft {
   0% {
     opacity: 0;
     transform: translateX(150px);
@@ -29,7 +29,7 @@
   }
 }
 
-@keyframes showSocials {
+@keyframes moveUp {
   0% {
     opacity: 0;
     transform: translateY(30px);

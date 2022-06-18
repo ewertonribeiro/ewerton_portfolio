@@ -31,7 +31,7 @@ const Photo = () => {
     <aside className={style.photo_aside}>
       <div className={style.photo}>
         <Image
-          src="/assets/218480281_1339201426495100_5152472262235085304_n.jpg"
+          src="/assets/meudesenho.png"
           alt="Imagem de Ewerton Ribeiro"
           width={800}
           height={800}
