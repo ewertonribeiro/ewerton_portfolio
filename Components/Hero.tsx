@@ -8,8 +8,10 @@ const Hero = () => {
   return (
     <main>
       <BackgroundAnimation />
+
       <div className={`${styles.hero_container} ${utils.container}`}>
         <main className="hero_main">
+
           <h1 className={styles.hero_title}>
             Prazer, Sou o <strong>Ewerton!</strong>
             <br />

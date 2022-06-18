@@ -2,9 +2,13 @@
   margin-bottom: 4.1rem;
 }
 
+.hero_container main {
+  max-width: 56%;
+}
 .hero_title {
   color: #fff;
   font-size: 3.5rem;
+  animation: moveToRight 2s ease-in-out;
 }
 
 .hero_title strong {
@@ -16,6 +20,7 @@
   font-size: 1.1rem;
   line-height: 2.5rem;
   max-width: 70%;
+  animation: moveToLeft 2s ease-in-out;
 }
 
 .hero_paragrafo strong {
@@ -38,4 +43,61 @@
   font-size: 1.2rem;
   text-align: center;
   background-image: linear-gradient(to right, #13adc7, #945dd6);
+  animation: showButton 1.5s ease-in-out 2.4s backwards;
+}
+
+@keyframes moveToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+
+  80% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+
+  80% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes showButton {
+  0% {
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
 }
